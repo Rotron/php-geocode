@@ -1,12 +1,12 @@
 <?php
 
-namespace KamranAhmed\Geocode;
+namespace Rotron\Geocode;
 
 /**
  * A wrapper around Google's Geocode API that parses the address,
  * to get different details regarding the address
  *
- * @author  Kamran Ahmed <kamranahmed.se@gmail.com>
+ * @author  Federico Sacca <info@federicosacca.it>
  * @license http://www.opensource.org/licenses/MIT
  * @version v2.0
  */

@@ -16,10 +16,8 @@ Call from controller with Post or Get request.
 } 
 
 # PHP Geocode
-[![Build Status](https://travis-ci.org/kamranahmedse/php-geocode.svg?branch=master)](https://travis-ci.org/kamranahmedse/php-geocode)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/kamranahmedse/php-geocode/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kamranahmedse/php-geocode/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/kamranahmedse/php-geocode/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/kamranahmedse/php-geocode/?branch=master)
-[![Latest Stable Version](https://poser.pugx.org/kamranahmedse/php-geocode/v/stable.svg)](https://packagist.org/packages/kamranahmedse/php-geocode)
+
+[![Latest Stable Version](https://poser.pugx.org/rotron/php-geocode/v/stable.svg)](https://packagist.org/packages/rotron/php-geocode)
 
 A wrapper around the Google Geocoding API to get different details regarding an address such as 
 - Latitude/longitude
@@ -37,22 +35,17 @@ PHP >= 5.4.0 and <code>curl</code> enabled server.
 You can install the library using the following ways
 
 ## Composer
-The recommended installation method is through <a href="http://getcomposer.org/">Composer</a>, a dependency manager for PHP. Just add <code>kamranahmedse/php-geocode</code> to your project's <code>composer.json</code> file:
+The recommended installation method is through <a href="http://getcomposer.org/">Composer</a>, a dependency manager for PHP. Just add <code>rotron/php-geocode</code> to your project's <code>composer.json</code> file:
 
 ```json
 {
     "require": {
-        "kamranahmedse/php-geocode": "*"
+        "rotron/php-geocode": "*"
     }
 }
 ```
-and then run <code>composer install</code>. For further details you can find the package at <a href="https://packagist.org/packages/kamranahmedse/php-geocode">Packagist</a>.
+and then run <code>composer install</code>. For further details you can find the package at <a href="https://packagist.org/packages/rotron/php-geocode">Packagist</a>.
 
-## Manual way
-Or you can install the package manually by:
-
-- Copy `src/php-geocode.php` to your codebase, perhaps to the vendor directory.
-- Add the `Geocode` class to your autoloader or require the file directly.
 
 ## Getting Started
 I'm going to use the following address to explain the use of library i.e.
@@ -62,7 +55,7 @@ I'm going to use the following address to explain the use of library i.e.
 Instantiate the `Geocode` class and call the methods as follows
 ```php
 // Introduce the class into your scope
-use KamranAhmed\Geocode\Geocode;
+use Rotron\Geocode\Geocode;
 
 
 // Optionally you can pass the API key for Geocoding

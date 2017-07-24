@@ -1,5 +1,5 @@
 <?php
-namespace KamranAhmed\Geocode;
+namespace Rotron\Geocode;
 
 /**
  * Location

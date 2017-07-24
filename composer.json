@@ -1,20 +1,20 @@
 {
-    "name": "kamranahmedse/php-geocode",
+    "name": "rotron/php-geocode",
     "type": "library",
     "description": "A wrapper around the Google Geocoding API to get different details such as latitude, longitude, country, city, district, postcode, town and street number regarding some specific address.",
     "keywords": ["location", "address", "addresses", "google", "map", "maps", "gmap", "gmaps", "geocode", "geocoder", "geocoding"],
-    "homepage": "https://github.com/kamranahmedse/php-geocode",
+    "homepage": "https://github.com/rotron/php-geocode",
     "license": "MIT",
     "authors": [
         {
-            "name": "Kamran Ahmed",
-            "homepage": "http://kamranahmed.info",
+            "name": "Federico Sacca",
+            "homepage": "http://federicosacca.it",
             "role": "Developer"
         }
     ],
     "autoload": {
         "psr-4": {
-            "KamranAhmed\\Geocode\\": "src/"
+            "Rotron\\Geocode\\": "src/"
         }
     },
     "require": {
