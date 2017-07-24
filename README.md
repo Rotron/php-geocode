@@ -1,3 +1,20 @@
+Laravel 5.2 Tested.
+
+Add inside config/app.php
+'Geocode'   => KamranAhmed\Geocode\Geocode::class
+
+Call from controller with Post or Get request.
+ public function location(Request $request)
+ {
+        $geocode = new Geocode();
+        $street = $request->input('street');
+        // Get the details for the passed address
+        $location = $geocode->get($street);     
+        $location = $location->streetAddress;
+     
+        return view('store.location', compact('location'));
+} 
+
 # PHP Geocode
 [![Build Status](https://travis-ci.org/kamranahmedse/php-geocode.svg?branch=master)](https://travis-ci.org/kamranahmedse/php-geocode)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/kamranahmedse/php-geocode/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kamranahmedse/php-geocode/?branch=master)
