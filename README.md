@@ -1,7 +1,7 @@
 # Laravel 5.2 Tested.
 <code>
 Add inside config/app.php
-'Geocode'   => KamranAhmed\Geocode\Geocode::class
+'Geocode'   => Rotron\Geocode\Geocode::class
 
 Call from controller with Post or Get request.
  public function location(Request $request)
