@@ -1,5 +1,5 @@
-Laravel 5.2 Tested.
-
+# Laravel 5.2 Tested.
+<code>
 Add inside config/app.php
 'Geocode'   => KamranAhmed\Geocode\Geocode::class
 
@@ -14,7 +14,7 @@ Call from controller with Post or Get request.
      
         return view('store.location', compact('location'));
 } 
-
+</code>
 # PHP Geocode
 
 [![Latest Stable Version](https://poser.pugx.org/rotron/php-geocode/v/stable.svg)](https://packagist.org/packages/rotron/php-geocode)
@@ -40,7 +40,7 @@ The recommended installation method is through <a href="http://getcomposer.org/"
 ```json
 {
     "require": {
-        "rotron/php-geocode": "*"
+        "rotron/php-geocode": "dev-master"
     }
 }
 ```
